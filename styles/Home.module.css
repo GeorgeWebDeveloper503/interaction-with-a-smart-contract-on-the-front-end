@@ -4,13 +4,14 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+.main h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color:black;
+}
+
 
 .footer {
   display: flex;
@@ -106,6 +107,10 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.lotteryULinfo ul li{
+  list-style-type: none !important;
 }
 
 @media (max-width: 600px) {

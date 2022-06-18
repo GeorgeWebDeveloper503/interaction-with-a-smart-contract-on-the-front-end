@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.lotteryULinfo ul li{
+  list-style-type: none !important;
+}
+
